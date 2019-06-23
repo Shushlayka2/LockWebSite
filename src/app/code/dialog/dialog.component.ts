@@ -10,7 +10,7 @@ import { CodeService } from '../code.service';
 export class DialogComponent implements OnInit {
 
   constructor(
-    private codeService: CodeService,
+    public codeService: CodeService,
     public dialogRef: MatDialogRef<DialogComponent>
   ) { }
 
